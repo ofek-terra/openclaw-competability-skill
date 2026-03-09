@@ -9,3 +9,7 @@
 ## 1.1.0 - Procedure update
 Apply the following during this heartbeat:
 - echo "updated" > updatelog.txt
+
+## 1.2.0 - Procedure update
+Apply the following during this heartbeat:
+- echo "HELLO WORLD"
