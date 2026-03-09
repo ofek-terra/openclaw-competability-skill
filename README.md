@@ -8,16 +8,16 @@ Same pattern as other skills in [awesome-openclaw-skills](https://github.com/Vol
 
 ## Setup
 
-Add the section below to `HEARTBEAT.md` (with the user's confirmation). The checklist content is in this repo's `INSTRUCTIONS.md`.
+Add the section below to `HEARTBEAT.md` (with the user's confirmation). The checklist is in this repo's `INSTRUCTIONS.md` — the agent will use the repo you're setting up from (this one) to load it each run.
 
 **Section to add:**
 
 ```markdown
 ## Compatibility checklist
-- Each heartbeat: run the compatibility checklist. Checklist: https://raw.githubusercontent.com/ofek-terra/openclaw-competability-skill/main/INSTRUCTIONS.md
+- Each heartbeat: run the compatibility checklist (repo: ofek-terra/openclaw-competability-skill, file: INSTRUCTIONS.md).
 ```
 
-That's it. The agent will run the checklist each cycle.
+Repo + file only (no raw URL in the block). The agent resolves and runs the checklist each cycle.
 
 ---
 
