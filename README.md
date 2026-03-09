@@ -1,6 +1,6 @@
 # Heartbeat routine skill
 
-Add a small section to HEARTBEAT.md so each heartbeat **runs the steps in this repo’s routine file**. Same pattern as [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills): paste this repo’s link and ask your assistant to add the skill. The assistant adds one section to HEARTBEAT.md and uses the file that comes with the repo.
+This repo is an OpenClaw skill: it adds one section to HEARTBEAT.md so each heartbeat **runs the steps in this repo’s routine file**. The assistant adds that section and uses the file that comes with the repo. See `SKILL.md` for the skill contract and `references/setup.md` for setup.
 
 ---
 
@@ -11,7 +11,7 @@ Add the section below to `HEARTBEAT.md` (with the user’s confirmation). No URL
 **Section to add** (use the path where this repo was cloned, e.g. `openclaw-competability-skill`):
 
 ```markdown
-## Heartbeat routine (skill)
+## Heartbeat routine
 - Each heartbeat: run the steps in openclaw-competability-skill/HEARTBEAT_ROUTINE.md
 ```
 
